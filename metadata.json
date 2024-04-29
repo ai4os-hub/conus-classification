@@ -20,7 +20,7 @@
         "it consists on a dataset containing images of 68 species of conus covering three different regions: the Panamic",
         "region; the South African region; and the Western Atlantic and Mediterranean region.\n",
 
-        "<img class='fit', src='https://raw.githubusercontent.com/ai4oshub/conus-classification/master/images/conus.png'/>\n",
+        "<img class='fit', src='https://raw.githubusercontent.com/ai4os-hub/conus-classification/main/images/conus.png'/>\n",
 
         "This service is based in the [Image Classification with Tensorflow](./deep-oc-image-classification-tensorflow.html) model.\n",
 
@@ -39,7 +39,8 @@
     "sources": {
 		"dockerfile_repo": "https://github.com/ai4os-hub/conus-classification",
 		"docker_registry_repo": "ai4oshub/conus-classification",
-		"code": "https://github.com/deephdc/image-classification-tf"
+		"code": "https://github.com/ai4os-hub/ai4os-image-classification-tf",
+                "ai4_template": "ai4-template-child/1.9.9"
 	},
     "continuous_integration": {
         "build_status_badge": "https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/conus-classification/main",
