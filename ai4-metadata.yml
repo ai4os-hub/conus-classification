@@ -7,7 +7,7 @@ description: |-
   This Docker container contains a trained Convolutional Neural network optimized for conus identification using images. The architecture used is an Xception [2] network using Keras on top of Tensorflow.
   The PREDICT method expects an RGB image as input (or the url of an RGB image) and will return a JSON with the top 5 predictions.
   The training dataset has been provided by the [Natural Science Museum of Madrid](http://www.mncn.csic.es/) and it consists on a dataset containing images of 68 species of conus covering three different regions: the Panamic region; the South African region; and the Western Atlantic and Mediterranean region.
-  <img class=''fit'', src=''https://raw.githubusercontent.com/ai4os-hub/conus-classification/main/images/conus.png''/> 
+  <img class='fit', src='https://raw.githubusercontent.com/ai4os-hub/conus-classification/main/images/conus.png'/> 
   This service is based in the [Image Classification with Tensorflow](./deep-oc-image-classification-tensorflow.html) model.
   
   **References**
@@ -25,8 +25,11 @@ links:
   citation: http://digital.csic.es/handle/10261/194548
 tags:
   - deep learning
+  - image classification
+  - vo.imagine-ai.eu
 tasks:
   - Computer Vision
+  - Classification
 categories:
   - AI4 trainable
   - AI4 pre trained
