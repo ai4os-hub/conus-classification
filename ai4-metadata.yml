@@ -23,12 +23,13 @@ dates:
   created: '2019-01-01'
   updated: '2024-08-12'
 links:
-  source_code: https://github.com/ai4os-hub/ai4os-image-classification-tf
+  source_code: https://github.com/ai4os-hub/conus-classification
   docker_image: ai4oshub/conus-classification
   ai4_template: ai4-template-child/1.9.9
   dataset: http://www.mncn.csic.es/
   training_data: null
   citation: http://digital.csic.es/handle/10261/194548
+  base_model: https://github.com/ai4os-hub/ai4os-image-classification-tf
 tags:
   - deep learning
   - image classification
